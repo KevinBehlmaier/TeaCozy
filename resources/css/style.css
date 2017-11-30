@@ -17,7 +17,7 @@ body {
   text-align: center;
 }
 
- header img {
+header img {
    height: 50px;
    padding-left: 10px;
  }
@@ -55,7 +55,7 @@ div {
 
 #mission {
   height: 700px;
-  background-image: url(../resources/images/background.jpg);
+  background-image: url(../images/background.jpg);
   padding-top: 70px;
 }
 
@@ -76,6 +76,11 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  display: block;
+  font-weight: bold;
+}
+
 h4 {
   display: block;
   font-weight: bold;
@@ -92,8 +97,21 @@ h4 {
   padding: 5px;
 }
 
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
 #locations {
-  background-image: url();
+  background-image: url(../images/locations.jpg);
   height: 500px;
   padding-top: 70px;
 }
@@ -105,4 +123,33 @@ h4 {
 
 .container.locations {
   padding-top: 5px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  display: block;
+}
+
+#contact {
+  height: 200px;
+}
+
+h5 {
+  display: block;
+  font-weight: bold;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
